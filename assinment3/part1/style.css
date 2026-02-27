@@ -1,8 +1,8 @@
 /*
 	Name: Xander
 	File: style.css
-	Date: XX September 2026
-	A very brief description of the file.
+	Date: 17 February 2026
+	Style rules for the biography.
 */
 
 html {
@@ -40,3 +40,10 @@ h2{
     font-style: italic;
     font-size: 1.5rem;
 }
+div{
+    color: darkslategray;
+    font-weight: bold;
+}
+a:link {color:green;}
+a:hover {color:darkgreen; text-decoration: none;}
+a:focus {color:darkgreen; text-decoration: none;}
