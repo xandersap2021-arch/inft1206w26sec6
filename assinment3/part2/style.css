@@ -65,3 +65,35 @@ body {
 section h2 + p {
   text-indent: 2rem; 
 }
+
+a:link {
+  color: #aa6666;          
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #774444;          
+  text-decoration: underline;
+}
+a:hover{
+  color: #cc8888;          
+  text-decoration: none;
+}
+
+a:focus {
+  color: #cc8888;          
+  text-decoration: none;
+  outline: none;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  margin-left: 0.3em;
+  background-image: url("external-link-52.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: baseline;
+}
