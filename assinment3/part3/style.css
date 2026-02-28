@@ -72,3 +72,15 @@ nav {
   background-color: #fff;
   z-index: 10;
 }
+
+.feature {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 40%;
+}
+
+.grid {
+  display: grid; grid-template-columns: 3fr 1fr;
+  gap: 20px; max-width: 1200px;
+  margin: 0 auto; 
+}
