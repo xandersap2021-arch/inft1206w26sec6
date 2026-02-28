@@ -39,3 +39,29 @@ footer {
 footer p {
   text-align: center;
 }
+/* Headings and Body */
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 3rem;
+  text-align: center; 
+  letter-spacing: 0.05em;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  margin-bottom: 0;
+  letter-spacing: 0.04em;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: 1rem; 
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+section h2 + p {
+  text-indent: 2rem; 
+}
