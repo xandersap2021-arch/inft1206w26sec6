@@ -97,3 +97,53 @@ a[href^="http"]::after {
   background-repeat: no-repeat;
   vertical-align: baseline;
 }
+ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6; 
+  padding-left: 2rem;  
+} 
+ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6; 
+  padding-left: 2rem; 
+}
+
+li {
+  margin-bottom: 0.4rem; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 1rem;
+
+}
+ nav a {
+  display: block;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background-color: #aa6666;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: inherit;
+  text-decoration: none;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+nav a:hover {
+  background-color: #cc8888; 
+  outline: none; 
+}
+
+nav a:focus {
+  background-color: #cc8888; 
+  outline: none; 
+}
