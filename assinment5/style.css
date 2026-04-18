@@ -23,7 +23,7 @@ font[size="7"], font[size="6"], font[size="5"] {
   color: #2a2a2a;
 }
 
-p, input, li, table, label {
+p, input, li, table, label, h3 {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
 }
@@ -248,4 +248,9 @@ audio {
 
 .comment-container li p:nth-child(2) {
   flex: 5;
+}
+
+h3{
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
